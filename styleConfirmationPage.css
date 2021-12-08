@@ -1,0 +1,58 @@
+body, html{
+    background: #faefcf;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    /* background: rgb(95, 10, 10);
+    border-radius: 10px; */
+    margin-left:10%;
+    margin-right:10%;
+    top: 20%;
+    /* justify-content:center; */
+    /* text-align:center; */
+}
+
+.tulisan{
+    font-family: Detail;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    /* justify-content:center; */
+    /* text-align:center; */
+}
+
+.img{
+    width:350px;
+    height:300px;
+    border-radius: 15px;
+    top: 20%;
+    /* box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.28); */
+}
+
+.btn{
+    font-family: Button;
+    color: white;
+    height: 35px;
+    background:black;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    font-family: Button;
+    color: black;
+    height: 35px;
+    background:white;
+}
+
+@font-face {
+    font-family: Detail;
+    src: url(../Font/Regular.ttf);
+}
+
+@font-face {
+    font-family: Button;
+    src: url(../Font/MagicBaloonDemoRegular.ttf);
+}

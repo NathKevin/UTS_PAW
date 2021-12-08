@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body, html {
+    height: 100%;
+  }
+
+.bg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)),  url('https://images2.alphacoders.com/108/thumb-1920-1081105.jpg');
+    width: 100%;
+    height: auto;
+}
+
+.bg .container .card{
+    background-color: #faefcf;
+    border-radius: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 500px;
+}
+
+.bg .container{
+    padding: 122px 197px;
+}
+
+.navbar .navbar-brand{
+    margin-left: 50px;
+}
+
+#btnNav{
+    margin: 0px !important;
+    size: 2000px;
+}
+
+
